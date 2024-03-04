@@ -18,13 +18,13 @@ while True:
         count += 1
     
     # Если число больше загаданного...
-    if guess > number:
+    elif guess > number:
         # ...выводим сообщение.
         print('Ваше число больше того, что загадано.')
         count += 1
     
     # Если число угадано...
-    if guess == number:
+    elif guess == number:
         count += 1
         # ...прерываем выполнение программы и...
         break
